@@ -1,0 +1,24 @@
+﻿Build started 2/26/2016 8:43:03 PM.
+     1>Project "C:\Users\Vikram\documents\visual studio 2013\Projects\CS130A Final Project\CS130A Final Project\CS130A Final Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Graph.cpp GraphNode.cpp LinkedList.cpp LinkedListNode.cpp Main.cpp Node.cpp
+         Node.cpp
+         Main.cpp
+         LinkedListNode.cpp
+         LinkedList.cpp
+         GraphNode.cpp
+     1>c:\users\vikram\documents\visual studio 2013\projects\cs130a final project\cs130a final project\graphnode.cpp(8): error C2679: binary '=' : no operator found which takes a right-hand operand of type 'LinkedList *' (or there is no acceptable conversion)
+                 c:\users\vikram\documents\visual studio 2013\projects\cs130a final project\cs130a final project\linkedlist.h(15): could be 'LinkedList &LinkedList::operator =(const LinkedList &)'
+                 while trying to match the argument list '(LinkedList, LinkedList *)'
+         Graph.cpp
+     1>c:\users\vikram\documents\visual studio 2013\projects\cs130a final project\cs130a final project\graph.cpp(16): error C2059: syntax error : '}'
+     1>c:\users\vikram\documents\visual studio 2013\projects\cs130a final project\cs130a final project\graph.cpp(16): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\vikram\documents\visual studio 2013\projects\cs130a final project\cs130a final project\graph.cpp(20): error C2572: 'Graph::hash' : redefinition of default parameter : parameter 2
+                 c:\users\vikram\documents\visual studio 2013\projects\cs130a final project\cs130a final project\graph.h(12) : see declaration of 'Graph::hash'
+     1>c:\users\vikram\documents\visual studio 2013\projects\cs130a final project\cs130a final project\graph.cpp(22): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+     1>Done Building Project "C:\Users\Vikram\documents\visual studio 2013\Projects\CS130A Final Project\CS130A Final Project\CS130A Final Project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:10.88
